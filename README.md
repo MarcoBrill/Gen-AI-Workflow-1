@@ -16,3 +16,8 @@ This repository contains a Python script for building, training, and testing a n
    ```bash
    git clone https://github.com/yourusername/generative-ai-workflow.git
    cd generative-ai-workflow
+
+## Notes
+1. **Stable Diffusion**: Requires a GPU for efficient inference. If you don't have a GPU, you can use smaller models or run on CPU (slower).
+2. **DAIN**: Ensure you have CUDA installed for video enhancement.
+3. **Input Data**: Place your images and videos in the `input/` directory before running the script.
